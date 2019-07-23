@@ -21,7 +21,7 @@ steps:
     packageApp: true
     exportOptions: 'specify' # Optional. Options: auto, plist, specify
     exportMethod: 'package' # Required when exportOptions == Specify
-    exportTeamId: $(TeamId) # Optional
+    exportTeamId: 1234567890 # Optional
     destinationPlatformOption: 'default' # Optional. Options: default, iOS, tvOS, macOS, custom
     #destinationPlatform: # Optional
     destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
