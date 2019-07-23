@@ -18,7 +18,7 @@ steps:
     configuration: 'Release'
     #xcWorkspacePath: 'Calculator-iOS/Kalculator.xcodeproj/project.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
-    packageApp: true
+    packageApp: false
     #exportOptions: 'specify' # Optional. Options: auto, plist, specify
     #exportMethod: 'ad-hoc' # Required when exportOptions == Specify
     exportTeamId: 1234567890 # Optional
@@ -29,5 +29,5 @@ steps:
     #destinationDevices: # Optional
     #args: # Optional
     #workingDirectory: # Optional
-    #useXcpretty: true # Optional
+    useXcpretty: true # Optional
     publishJUnitResults: true
