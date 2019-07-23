@@ -22,7 +22,7 @@ steps:
     destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
     #destinationPlatform: # Optional
     destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
-    destinationSimulators: 'iPhone X' # Optional
+    destinationSimulators: 'iPhone 7' # Optional
     #destinationDevices: # Optional
     #args: # Optional
     #workingDirectory: # Optional
