@@ -15,7 +15,7 @@ steps:
     actions: 'test'
     scheme: ''
     sdk: 'iphoneos'
-    configuration: 'Release'
+    configuration: 'Debug'
     #xcWorkspacePath: 'Kalculator.xcodeproj/project.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
     destinationSimulators: 'iPhone 7'
@@ -30,7 +30,7 @@ steps:
     actions: 'build'
     scheme: ''
     sdk: 'iphoneos'
-    configuration: 'Release'
+    configuration: 'Debug'
     #xcWorkspacePath: 'Kalculator.xcodeproj/project.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
 
