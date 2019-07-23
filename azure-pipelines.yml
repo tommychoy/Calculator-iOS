@@ -12,11 +12,27 @@ pool:
 steps:
 - task: Xcode@5
   inputs:
+    actions: 'test'
+    scheme: ''
+    sdk: 'iphoneos'
+    configuration: 'Release'
+    #xcWorkspacePath: 'Kalculator.xcodeproj/project.xcworkspace'
+    xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
+    destinationSimulators: 'iPhone 7'
+    destinationTypeOption: 'simulators'
+    destinationPlatformOption: 'iOS'
+    signingOption: "auto"
+    useXcpretty: true
+    publishJUnitResults: '**/TEST-*.xml'
+    
+steps:
+- task: Xcode@5
+  inputs:
     actions: 'build'
     scheme: ''
     sdk: 'iphoneos'
     configuration: 'Release'
-    #xcWorkspacePath: 'Calculator-iOS/Kalculator.xcodeproj/project.xcworkspace'
+    #xcWorkspacePath: 'Kalculator.xcodeproj/project.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
 
 # Publish Test Results
