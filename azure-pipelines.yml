@@ -25,7 +25,6 @@ steps:
     useXcpretty: true
     publishJUnitResults: '**/TEST-*.xml'
     
-steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
