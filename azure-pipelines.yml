@@ -19,7 +19,7 @@ steps:
     #xcWorkspacePath: 'Calculator-iOS/Kalculator.xcodeproj/project.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
     packageApp: true
-    destinationPlatformOption: 'iOS' # Optional. Options: default, iOS, tvOS, macOS, custom
+    destinationPlatformOption: 'default' # Optional. Options: default, iOS, tvOS, macOS, custom
     #destinationPlatform: # Optional
     destinationTypeOption: 'simulators' # Optional. Options: simulators, devices
     destinationSimulators: 'iPhone 7' # Optional
