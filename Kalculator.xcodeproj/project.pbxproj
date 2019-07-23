@@ -69,8 +69,6 @@
 				40D59A30201471A40079AA69 /* JSButton.swift */,
 				40BB02451ECDFBEF00A6F9CF /* Main.storyboard */,
 				40BB02481ECDFBEF00A6F9CF /* Assets.xcassets */,
-				40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */,
-				40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */,
 				40C7D0611F164E3B00E8A4E1 /* Screenshots */,
 				40BB024A1ECDFBEF00A6F9CF /* LaunchScreen.storyboard */,
 				40BB024D1ECDFBEF00A6F9CF /* Info.plist */,
@@ -83,6 +81,8 @@
 		40C7D0611F164E3B00E8A4E1 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				40C7D05D1F164DC100E8A4E1 /* ioscalcwithtrig.png */,
+				40C7D05F1F164E2400E8A4E1 /* ioscalcwithtrig2.png */,
 			);
 			name = Screenshots;
 			sourceTree = "<group>";
