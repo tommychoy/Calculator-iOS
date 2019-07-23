@@ -18,9 +18,9 @@ steps:
     configuration: 'Release'
     #xcWorkspacePath: 'Calculator-iOS/Kalculator.xcodeproj/project.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, 10, default, specifyPath
-    packageApp: false
-    exportOptions: 'specify' # Optional. Options: auto, plist, specify
-    exportMethod: 'ad-hoc' # Required when exportOptions == Specify
+    packageApp: true
+    #exportOptions: 'specify' # Optional. Options: auto, plist, specify
+    #exportMethod: 'ad-hoc' # Required when exportOptions == Specify
     exportTeamId: 1234567890 # Optional
     destinationPlatformOption: 'default' # Optional. Options: default, iOS, tvOS, macOS, custom
     #destinationPlatform: # Optional
